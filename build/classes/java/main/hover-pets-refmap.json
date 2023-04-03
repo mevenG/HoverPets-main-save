@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "safro/hover/pets/mixin/PlayerEntityMixin": {
+      "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z",
+      "remove": "Lnet/minecraft/class_1657;method_5650(Lnet/minecraft/class_1297$class_5529;)V"
+    },
+    "safro/hover/pets/mixin/ServerPlayerEntityMixin": {
+      "onSpawn": "Lnet/minecraft/class_3222;method_34225()V"
+    },
+    "safro/hover/pets/mixin/ModEntityDataSaverMixin": {
+      "writeNbt": "Lnet/minecraft/class_1297;method_5647(Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;",
+      "readNbt": "Lnet/minecraft/class_1297;method_5651(Lnet/minecraft/class_2487;)V"
+    },
+    "safro/hover/pets/mixin/PlayerManagerMixin": {
+      "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V"
+    },
+    "safro/hover/pets/mixin/LivingEntityMixin": {
+      "canWalkOnFluid": "Lnet/minecraft/class_1309;method_26319(Lnet/minecraft/class_3610;)Z"
+    },
+    "safro/hover/pets/mixin/ClientPlayerEntityAccessor": {
+      "networkHandler": "field_3944:Lnet/minecraft/class_634;"
+    },
+    "safro/hover/pets/mixin/ServerPlayerEntityAccessor": {
+      "networkHandler": "field_13987:Lnet/minecraft/class_3244;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "safro/hover/pets/mixin/PlayerEntityMixin": {
+        "damage": "Lnet/minecraft/class_1657;method_5643(Lnet/minecraft/class_1282;F)Z",
+        "remove": "Lnet/minecraft/class_1657;method_5650(Lnet/minecraft/class_1297$class_5529;)V"
+      },
+      "safro/hover/pets/mixin/ServerPlayerEntityMixin": {
+        "onSpawn": "Lnet/minecraft/class_3222;method_34225()V"
+      },
+      "safro/hover/pets/mixin/ModEntityDataSaverMixin": {
+        "writeNbt": "Lnet/minecraft/class_1297;method_5647(Lnet/minecraft/class_2487;)Lnet/minecraft/class_2487;",
+        "readNbt": "Lnet/minecraft/class_1297;method_5651(Lnet/minecraft/class_2487;)V"
+      },
+      "safro/hover/pets/mixin/PlayerManagerMixin": {
+        "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V"
+      },
+      "safro/hover/pets/mixin/LivingEntityMixin": {
+        "canWalkOnFluid": "Lnet/minecraft/class_1309;method_26319(Lnet/minecraft/class_3610;)Z"
+      },
+      "safro/hover/pets/mixin/ClientPlayerEntityAccessor": {
+        "networkHandler": "field_3944:Lnet/minecraft/class_634;"
+      },
+      "safro/hover/pets/mixin/ServerPlayerEntityAccessor": {
+        "networkHandler": "field_13987:Lnet/minecraft/class_3244;"
+      }
+    }
+  }
+}

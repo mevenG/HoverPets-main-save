@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "hoverpets",
+  "version": "0.4.0",
+
+  "name": "Hover Pets",
+  "description": "Craftable pets that grant unique perks!",
+  "authors": [
+    "Safro"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hover-pets",
+    "sources": "https://github.com/Safrodev/HoverPets"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/hoverpets/hoverpets_icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "safro.hover.pets.HoverPets"
+    ],
+    "client": [
+      "safro.hover.pets.HoverPetsClient"
+    ],
+    "dynamiclights": [
+      "safro.hover.pets.compat.HPDynamicLights"
+    ]
+  },
+  "mixins": [
+    "hoverpets.mixins.json"
+  ],
+  "custom": {
+  },
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}

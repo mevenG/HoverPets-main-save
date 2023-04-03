@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2023-03-30 10:45:08 +0200"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-03-30 10:48:25 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}
